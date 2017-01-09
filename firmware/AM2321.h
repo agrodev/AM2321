@@ -1,8 +1,8 @@
 #include "application.h"
 
 #define BAUD  9600
-#define _SSDA D2
-#define _SSCL D3
+#define _SSDA D0
+#define _SSCL D1
 
 #define IIC_Add 0xB8			// Device address of AM2321
 #define IIC_RX_Length 15		// Max data buffer size
